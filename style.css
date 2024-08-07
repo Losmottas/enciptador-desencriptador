@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    background-color: rgb(31, 119, 160);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;     
+}
+
+
+
+
+
+.imagenes__logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    border: none;
+    color: #f70606;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{ color: #f70606; }
+  .text-area:focus {
+        outline: none;
+    }
+
+
+
+.mensaje{
+    background: #ffffff;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0000ff;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed ;
+}   
+
+.mensaje:focus{
+    outline: none;
+}
+
+.bottons{
+    display: flex;
+    margin-top: 18px;
+    
+}
+
+.btn__encriptador{
+    background-color: #00ffff;
+    border: 5px solid #f70606;
+    border-radius: 24px;
+    color: #f8df00;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+
+}
+
+.btn__desencriptador{
+    background-color: #00ffff;
+    border: 5px solid #f70606;
+    border-radius: 24px;
+    color: #f8df00;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+
+}
+
+.btn__copiar{
+    background-color: #00ffff;
+    border: 5px solid #f706e3;
+    border-radius: 24px;
+    color: #f8df00;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacion{
+    color: #f8df00;
+    font-size: 15px;
+}
